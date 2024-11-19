@@ -18,12 +18,12 @@
 
     <meta charset="UTF-8">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-    <meta name="description" content="Flutter application for rms project">
+    <meta name="description" content="Ahmed Nagy">
 
     <!-- iOS meta tags & icons -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="rms_application">
+    <meta name="apple-mobile-web-app-title" content="Ahmed Nagy">
     <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
     <!-- Favicon -->
@@ -31,6 +31,21 @@
 
     <title>rms_application</title>
     <link rel="manifest" href="manifest.json">
+
+    <style>
+        .container {
+            margin: 0;
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .loader {
+            height: 30vh;
+        }
+    </style>
 </head>
 
     <body style="overflow: hidden">
